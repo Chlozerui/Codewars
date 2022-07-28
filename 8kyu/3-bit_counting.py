@@ -14,4 +14,4 @@ print(countBits(1234))
 # def countBits(n):
 #     return bin(n).count("1")
 
-# use bin() to calculate binary number
+# use bin() to calculate binary number !
