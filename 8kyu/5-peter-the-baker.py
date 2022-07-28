@@ -23,7 +23,7 @@ def cakes(recipe, available):
 def cakes_best(recipe, available):
     return min([available[i] // recipe[i] if i in available else 0 for i in recipe])
 
-def cakes_2(recipe, available):
+def cakes_nice(recipe, available):
     try:
         return min([available[a]/recipe[a] for a in recipe])
     except:
